@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">PreferencesTry</string>
     <string name="action_settings">Settings</string>
+
+	<string name="has_medius_installed_key">HasMedius</string>
+	<string name="vehicle_has_medius_installed">Vehicle has Medius installed</string>
+
+	<string name="apc_enabled_key">APCEnabled</string>
+	<string name="vehicle_has_apc_installed">Vehicle has APC installed</string>
+
+	<string name="company_tag_key">CompanyTag</string>
+	<string name="company_tag">Company Tag (set by server)</string>
+
+	<string name="secure_login_key">SecureLogin</string>
+	<string name="ensure_mdt_login_is_secure">Ensure MDT login is secure - require PINs from drivers and captains</string>
+
+	<string name="note_this_option">NOTE: This option must ONLY be turned on if the server is set up to support it</string>
+
+	<string name="vehicle_information">Vehicle Information</string>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 </resources>

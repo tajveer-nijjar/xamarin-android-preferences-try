@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<PreferenceCategory
+		android:key="@string/vehicle_information"
+		android:title="@string/vehicle_information">
+
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="@string/has_medius_installed_key"
+			android:title="@string/vehicle_has_medius_installed" />
+
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="@string/apc_enabled_key"
+			android:title="@string/vehicle_has_apc_installed"
+			app:allowDividerAbove="true" />
+
+		<EditTextPreference
+			android:defaultValue="1"
+			android:inputType="number"
+			android:key="@string/company_tag_key"
+			android:title="@string/company_tag"
+			app:allowDividerAbove="true" />
+
+		<SwitchPreferenceCompat
+			android:defaultValue="false"
+			android:key="@string/secure_login_key"
+			android:summary="@string/note_this_option"
+			android:title="@string/ensure_mdt_login_is_secure"
+			app:allowDividerAbove="true" />
+
+	</PreferenceCategory>
+</androidx.preference.PreferenceScreen>
